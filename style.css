@@ -18,22 +18,11 @@ body {
   color: white;
 }
 
-.github {
-  display: inline-block;
-  vertical-align: middle;
-  width: 49%;
-}
-
-.github img {
-  width: 10%;
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .icons {
   display: inline-block;
   vertical-align: middle;
   width: 49%;
+  justify-content: end;
 }
 
 .bodyWrapper {
@@ -59,15 +48,15 @@ body {
 }
 
 .skynoxicon {
-  width: 49%;
   display: inline-block;
   vertical-align: middle;
 }
 
 .skynoxicon img {
-  width: 10%;
+  width: 8%;
   height: auto;
   float: right;
+  margin: 0px 8px 0px 8px;
 }
 
 .addon {
@@ -118,7 +107,7 @@ body {
   border: 1px white solid;
   border-radius: 3px;
   margin: 20px 0px 20px 0px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 10px 10px 10px;
   cursor: pointer;
 }
 
@@ -129,7 +118,7 @@ body {
   border: 1px white solid;
   border-radius: 3px;
   margin: 20px 0px 20px 15px;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 10px 10px 10px;
   cursor: pointer;
 }
 
