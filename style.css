@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-  color: white;
+  color: rgb(234, 238, 241);
 }
 
 .icons {
@@ -40,7 +40,7 @@ body {
 
 .icon {
   font-family: "Poppins", sans-serif;
-  color: white;
+  color: rgb(234, 238, 241);
   font-size: 1.5vw;
   width: 49.5%;
   display: inline-block;
@@ -75,7 +75,7 @@ body {
   vertical-align: middle;
   width: 49%;
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: rgb(234, 238, 241);
 }
 
 .rightContent {
@@ -87,14 +87,14 @@ body {
 
 .pHeader {
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 10px 0px 10px 0px;
   font-size: 4vw;
 }
 
 .pCaption {
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: rgb(234, 238, 241);
   margin: 10px 0px 30px 0px;
   font-size: 1.7vw;
   width: 84%;
@@ -102,9 +102,9 @@ body {
 
 .featuresBtn {
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: rgb(234, 238, 241);
   background: transparent;
-  border: 1px white solid;
+  border: 1px rgb(234, 238, 241) solid;
   border-radius: 3px;
   margin: 20px 0px 20px 0px;
   padding: 10px 10px 10px 10px;
@@ -113,9 +113,9 @@ body {
 
 .featuresBtn2 {
   font-family: "Nunito Sans", sans-serif;
-  color: white;
+  color: rgb(234, 238, 241);
   background: transparent;
-  border: 1px white solid;
+  border: 1px rgb(234, 238, 241) solid;
   border-radius: 3px;
   margin: 20px 0px 20px 15px;
   padding: 10px 10px 10px 10px;
@@ -147,7 +147,7 @@ body {
 .featureIcon h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
-  color: white;
+  color: rgb(234, 238, 241);
   font-size: 1vw;
   margin: 0px 0px 50px 0px;
 }
@@ -169,11 +169,22 @@ body {
   margin: 20px 0px 20px 0px;
 }
 
-.footerSection {
+.footer {
   width: 100%;
-  height: auto;
+  padding: 1% 0% 1% 0%;
   margin-bottom: 0px;
-  background-color: white;
+  color: rgb(234, 238, 241);
+  background-color: #141414;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.contact {
+  text-decoration: none;
+  color: rgb(255, 226, 61);
+  font-size: 5vw;
 }
 
 @media only screen and (max-width: 525px) {
@@ -225,7 +236,7 @@ body {
     margin: 0px 0px 30px 0px;
     font-size: 3vw;
     font-family: "Nunito Sans", sans-serif;
-    color: white;
+    color: rgb(234, 238, 241);
     margin: 10px 0px 30px 0px;
     width: 100%;
     text-align: center;
@@ -233,9 +244,9 @@ body {
 
   .featuresBtnAddon {
     font-family: "Nunito Sans", sans-serif;
-    color: white;
+    color: rgb(234, 238, 241);
     background: transparent;
-    border: 1px white solid;
+    border: 1px rgb(234, 238, 241) solid;
     border-radius: 3px;
     margin: 20px 0px 20px 0px;
     padding: 10px 12px 10px 12px;
@@ -263,6 +274,7 @@ body {
   .leftContent h2 {
     text-align: center;
     margin: 0px 0px 15px 0px;
+    color: rgb(234, 238, 241);
   }
 
   .cmd {
@@ -301,9 +313,9 @@ body {
   .featuresBtnAddon2 {
     margin-left: 10px;
     font-family: "Nunito Sans", sans-serif;
-    color: white;
+    color: rgb(234, 238, 241);
     background: transparent;
-    border: 1px white solid;
+    border: 1px rgb(234, 238, 241) solid;
     border-radius: 3px;
     margin: 20px 0px 20px 15px;
     padding: 10px 10px 10px 10px;
