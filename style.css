@@ -48,6 +48,10 @@ body {
   float: right;
 }
 
+.addon {
+  display: none;
+}
+
 .wrapper {
   width: 100%;
   display: inline-block;
@@ -97,7 +101,7 @@ body {
 }
 
 .rightContent img {
-  width: 50%;
+  width: 75%;
   height: auto;
 }
 
@@ -134,12 +138,13 @@ body {
 }
 
 .rightContentfeature img {
-  width: 50%;
+  width: 75%;
 }
 
 .cmd {
   color: rgb(255, 226, 61);
   font-size: 2vw;
+  margin: 20px 0px 20px 0px;
 }
 
 .footerSection {
@@ -147,4 +152,126 @@ body {
   height: auto;
   margin-bottom: 0px;
   background-color: white;
+}
+
+@media only screen and (max-width: 525px) {
+  body {
+    background-image: url("img/mob_bg.jpg");
+  }
+
+  .rightContent {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .leftContent {
+    display: block;
+    width: 100%;
+  }
+
+  .rightContent img {
+    width: 100%;
+    display: block;
+  }
+
+  .pHeader {
+    margin: 0px 0px 30px 0px;
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  .pCaption {
+    display: none;
+  }
+
+  .addon {
+    display: block;
+  }
+
+  .featuresBtn {
+    display: none;
+  }
+
+  .addon {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .pCaptionAddon {
+    margin: 0px 0px 30px 0px;
+    font-size: 3vw;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    margin: 10px 0px 30px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .featuresBtnAddon {
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    background: transparent;
+    border: 1px white solid;
+    border-radius: 3px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+  }
+
+  .addonbtn {
+    text-align: center;
+  }
+
+  .wrapper {
+    margin-bottom: 30px;
+  }
+
+  .featureSection {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .featureIcon h3 {
+    font-size: 2vw;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .leftContent h2 {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .cmd {
+    font-size: 6vw;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .featurep {
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+  }
+
+  .rightContentfeature {
+    text-align: center;
+    width: 100%;
+  }
+
+  .rightContentfeature img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .skynoxicon {
+    width: 49%;
+  }
+
+  .icon {
+    font-size: 4.5vw;
+  }
+
+  .skynoxicon img {
+    width: 25%;
+  }
 }
