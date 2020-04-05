@@ -14,6 +14,28 @@ body {
   background-size: 100%;
 }
 
+.logo {
+  color: white;
+}
+
+.github {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+}
+
+.github img {
+  width: 10%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icons {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+}
+
 .bodyWrapper {
   width: 84%;
   height: 100%;
@@ -37,13 +59,13 @@ body {
 }
 
 .skynoxicon {
-  width: 49.5%;
+  width: 49%;
   display: inline-block;
   vertical-align: middle;
 }
 
 .skynoxicon img {
-  width: 8%;
+  width: 10%;
   height: auto;
   float: right;
 }
