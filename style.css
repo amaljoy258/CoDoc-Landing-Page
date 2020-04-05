@@ -14,8 +14,18 @@ body {
   background-size: 100%;
 }
 
+.mainIcon {
+  width: 14%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .logo {
   color: rgb(234, 238, 241);
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3vw;
+  justify-content: start;
 }
 
 .icons {
@@ -36,6 +46,8 @@ body {
 .nav {
   width: 100%;
   height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .icon {
