@@ -227,12 +227,13 @@ body {
     border: 1px white solid;
     border-radius: 3px;
     margin: 20px 0px 20px 0px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 12px 10px 12px;
     cursor: pointer;
   }
 
   .addonbtn {
     text-align: center;
+    width: 100%;
   }
 
   .wrapper {
@@ -294,7 +295,7 @@ body {
     border: 1px white solid;
     border-radius: 3px;
     margin: 20px 0px 20px 15px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 10px;
     cursor: pointer;
   }
 
