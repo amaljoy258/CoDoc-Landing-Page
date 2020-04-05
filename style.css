@@ -178,13 +178,11 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 5vw;
 }
 
 .contact {
   text-decoration: none;
   color: rgb(255, 226, 61);
-  font-size: 5vw;
 }
 
 @media only screen and (max-width: 525px) {
@@ -324,5 +322,13 @@ body {
 
   .featuresBtn2 {
     display: none;
+  }
+
+  .footer {
+    font-size: 3vw;
+  }
+
+  .contact {
+    font-size: 3vw;
   }
 }
