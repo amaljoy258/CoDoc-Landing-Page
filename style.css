@@ -100,6 +100,17 @@ body {
   cursor: pointer;
 }
 
+.featuresBtn2 {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  background: transparent;
+  border: 1px white solid;
+  border-radius: 3px;
+  margin: 20px 0px 20px 15px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+}
+
 .rightContent img {
   width: 75%;
   height: auto;
@@ -273,5 +284,21 @@ body {
 
   .skynoxicon img {
     width: 25%;
+  }
+
+  .featuresBtnAddon2 {
+    margin-left: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    background: transparent;
+    border: 1px white solid;
+    border-radius: 3px;
+    margin: 20px 0px 20px 15px;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+  }
+
+  .featuresBtn2 {
+    display: none;
   }
 }
