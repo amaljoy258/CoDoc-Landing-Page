@@ -1,0 +1,150 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("img/gradienta-m_7p45JfXQo-unsplash_1.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+.bodyWrapper {
+  width: 84%;
+  height: 100%;
+  padding: 0px;
+  margin: 3% 8% 0% 8%;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.skynoxicon {
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.skynoxicon img {
+  width: 8%;
+  height: auto;
+  float: right;
+}
+
+.wrapper {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 60px 0px 60px 0px;
+}
+
+.leftContent {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
+
+.rightContent {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  text-align: center;
+}
+
+.pHeader {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  margin: 10px 0px 10px 0px;
+  font-size: 4vw;
+}
+
+.pCaption {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  margin: 10px 0px 30px 0px;
+  font-size: 1.7vw;
+  width: 84%;
+}
+
+.featuresBtn {
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  background: transparent;
+  border: 1px white solid;
+  border-radius: 3px;
+  margin: 20px 0px 20px 0px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+}
+
+.rightContent img {
+  width: 50%;
+  height: auto;
+}
+
+.featureIcon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24%;
+}
+
+.featureSection {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 8%;
+}
+
+.featureIcon img {
+  width: 30%;
+  height: auto;
+}
+
+.featureIcon h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1vw;
+  margin: 0px 0px 50px 0px;
+}
+
+.rightContentfeature {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+  text-align: center;
+}
+
+.rightContentfeature img {
+  width: 50%;
+}
+
+.cmd {
+  color: rgb(255, 226, 61);
+  font-size: 2vw;
+}
+
+.footerSection {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+  background-color: white;
+}
