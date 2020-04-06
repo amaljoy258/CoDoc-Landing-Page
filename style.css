@@ -11,7 +11,7 @@ a {
 body {
   background-image: url("img/gradienta-m_7p45JfXQo-unsplash_1.jpg");
   background-repeat: repeat-y;
-  background-size: 100%;
+  background-size: 100% auto;
 }
 
 .mainIcon {
@@ -200,6 +200,16 @@ body {
 @media only screen and (max-width: 525px) {
   body {
     background-image: url("img/mob_bg.jpg");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+  }
+
+  .logo {
+    font-size: 5vw;
+  }
+
+  .mainIcon {
+    width: 20%;
   }
 
   .rightContent {
